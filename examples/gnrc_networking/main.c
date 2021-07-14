@@ -42,6 +42,8 @@ int main(void)
 
     /* start shell */
     puts("All up, running the shell now");
+    puts("Soy Rafael Alfaro quiero pertenecer a Hackerspace San Salvador!");
+
     char line_buf[SHELL_DEFAULT_BUFSIZE];
     shell_run(shell_commands, line_buf, SHELL_DEFAULT_BUFSIZE);
 
